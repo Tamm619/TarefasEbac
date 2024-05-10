@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <style>
+        label{
+            color: #ffffff;
+        }
+        body{
+            background-color: #000000;
+        }
+        h1{
+            color: #ff0000;
+        }
+        .botaocadastro{
+            background-color: #06630e;
+        }
+    </style>
 </head>
 <body>
     <h1>Formulário de Cadastro</h1> <br>
@@ -14,10 +28,10 @@
     <label for="username">Usuário: </label> 
     <input id="username" type="text" placeholder="Seu Usuário"> <br>
 
-    <label for="senha">Senha: </label>
+    <label style="color:red" for="senha">Senha: </label>
     <input id="senha" type="password" placeholder="Sua Senha"> <br>
 
-    <button type="submit">Cadastrar</button>
-</form>
+    <button class="botaocadastro" type="submit">Cadastrar</button>
+    </form>
 </body>
 </html>
