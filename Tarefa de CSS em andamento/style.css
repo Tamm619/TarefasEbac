@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+}
+
+#entretenimento {
+    background-color: #314770;
+}
+
+#tecnologia {
+    background-color: #aee023;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+}
+
+article {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: white;
+    border: 30px solid #ffffff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
